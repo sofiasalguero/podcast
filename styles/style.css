@@ -121,17 +121,10 @@ body main {
     margin-top: 24px;
     height: 1203.5px;
     padding-top: 64px;
-    position: relative; }
-    body main .episodios .background {
-      position: absolute;
-      top: 0;
-      width: 100%;
-      height: inherit;
-      background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-      -webkit-transform: skewY(-6deg);
-              transform: skewY(-6deg);
-      -webkit-transform-origin: top right;
-              transform-origin: top right; }
+    position: relative;
+    -webkit-clip-path: polygon(0 2.8%, 100% 0, 100% 97%, 0 100%);
+            clip-path: polygon(0 2.8%, 100% 0, 100% 97%, 0 100%);
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%); }
     body main .episodios h2 {
       margin-left: 16px;
       font-size: 36px;
@@ -321,12 +314,9 @@ body footer {
     height: 80px;
     padding-left: 100px;
     padding-right: 52px; }
-    body header nav figure {
+    body header img {
       width: 36px;
       height: 36px; }
-      body header nav figure img {
-        width: 36px;
-        height: 36px; }
     body header nav .menu span {
       display: none; }
     body header nav .menu input {
@@ -379,7 +369,10 @@ body footer {
     body main .episodios {
       padding: 0;
       margin-top: 0;
-      height: 1042.6px; }
+      height: 1042.6px;
+      -webkit-clip-path: polygon(0 15%, 100% 0, 100% 90%, 0 100%);
+              clip-path: polygon(0 15%, 100% 0, 100% 90%, 0 100%);
+      background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%); }
       body main .episodios h2 {
         padding-top: 186px;
         padding-left: 200px;
