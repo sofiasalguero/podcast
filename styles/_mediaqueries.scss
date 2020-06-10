@@ -1,0 +1,337 @@
+@media screen and (min-width:1440px){
+    body{
+
+        header{
+            height: 80px;
+            padding-left: 100px;
+            padding-right: 52px;
+            
+        
+            nav{
+
+                figure{
+                    width: 36px;
+                    height: 36px;
+
+                    img{
+                        width: 36px;
+                        height: 36px;
+                    }
+                }
+               
+                .menu{
+
+                    span{
+                       display: none;
+                    }
+                    input{
+                        display: none;
+                    }
+
+                    ul{
+                        display: flex; 
+                        top: 0;
+                        position: relative;
+                        background: none;
+                        margin-right: 52px;
+                        margin-top: 26px;
+                        
+
+                        li{
+                            
+                            a{ 
+                                font-family: 'IBM Plex Mono';
+                                font-size: 16px;
+                                color: #060A24;
+                                letter-spacing: 0;
+                                line-height: 28px;
+                                margin-right: 48px;  
+                                
+                            }
+                        }
+                    }
+                } 
+
+                     
+            }   
+
+        }
+
+        main{
+            height:3722px; ;
+
+            .main-section {
+                padding-left: 200px;
+                height: 240px;
+                
+                h1{
+                    font-family: 'IBM Plex Sans';
+                    font-size: 64px;
+                    color: #060A24;
+                    letter-spacing: 0;
+                    margin-top: 120px;
+                    margin-bottom: 0px;
+                    height:84px;
+                    width:100%
+                }
+
+                p{
+                    font-family: 'IBM Plex Mono';
+                    font-size: 16px;
+                    color: #060A24;
+                    letter-spacing: 0;
+                    line-height: 24px; 
+                    height: 48px;
+                    width: 628px;
+                    margin-bottom: 56px;
+                    visibility: hidden;
+                }
+        
+                p::before { 
+                    content: "El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.";
+                    visibility: visible;
+                }
+                button{
+                    width: 226px;
+                }
+            }
+
+            .episodios{
+                padding: 0;
+                margin-top: 0;
+                height:1042.6px;
+
+                h2{
+                    padding-top: 186px;
+                    padding-left:200px;
+                    font-family: 'IBM Plex Sans';
+                    font-size: 48px;
+                    color: #FFFFFF;
+                    letter-spacing: 0;
+                    margin-bottom: 26px;
+                }
+
+                
+
+                .iframe-padre{
+                    display: flex;
+                    flex-wrap: wrap;
+
+                        .iframe{
+                            width: 584px;
+                            margin-bottom: 0;
+                            margin-left: 100px;
+                            padding-left: 0;
+                            margin-bottom: 74px;
+
+                        iframe{
+                            width: 584px;
+                           
+                        }
+                    }
+
+                    
+                }
+            }
+
+            .phone{
+                height: 660px;
+                width: 457.6px;
+                margin-left: 200px;
+
+                img{
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+
+            .from{
+                position: absolute;
+                top:1610px;
+                left:720px;
+
+                h2{
+                    font-family: 'IBM Plex Sans';
+                    font-size: 48px;
+                    color: #060A24;
+                    letter-spacing: 0;
+                    width: 399px;
+                }
+
+                p{
+                    font-family: 'IBM Plex Mono';
+                    font-size: 16px;
+                    color: #060A24;
+                    letter-spacing: 0;
+                    line-height: 24px; 
+                    width: 464px;
+
+                }
+            }
+
+            .stellar-guests {
+
+                h2{
+                    font-family: 'IBM Plex Sans';
+                    font-size: 48px;
+                    color: #060A24;
+                    letter-spacing: 0; 
+                    width: 481px;
+                    height: 62px;
+                    margin-left: 200px;
+                    margin-bottom:36px;
+                    margin-top: 64px;
+                    padding: 0;
+                }
+                .imagenes-stellar{
+                    display: flex;
+                    flex-wrap: wrap;
+                    height: auto;
+                    width: auto;
+                    
+
+                    div{
+                        height: 364px;
+                        width: 480px;
+                    
+                        img{
+                            height: 364px;
+                            width: 480px;
+                        }
+                
+                    }
+
+                }
+            
+            }
+
+            .our-subjects{
+                margin-top:64px;
+
+                h2{
+                    font-family: 'IBM Plex Sans';
+                    font-size: 48px;
+                    color: #060A24;
+                    letter-spacing: 0;
+                    width: 586px;
+                    margin-left: 200px;
+                    padding: 0;
+                }
+
+            .nuestros-temas{
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-left:200px;
+
+                    .icon{
+                       width: 260px;
+
+                        img{
+                            height:104px;
+                            width: 104px;
+                            margin-left: 78px;
+                            margin-right: 78px;
+                        }
+                        h3{
+                           text-align: center;
+                           
+                        }
+                    }
+                    .icon4{
+                        width: 260px;
+ 
+                         img{
+                             height:104px;
+                             width: 104px;
+                             margin-left: 78px;
+                             margin-right: 78px;
+                         }
+                         h3{
+                            text-align: center;
+                            line-height: 32px;
+                            width: 220px;
+                            margin: 0 auto;
+
+                        }
+                    }
+
+                }
+
+                
+
+            }
+
+            .news{
+                height: 518px;
+                margin-top:34px;
+                clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
+
+                h2{
+                    font-family: 'IBM Plex Sans';
+                    font-size: 48px;
+                    color: #FFFFFF;
+                    letter-spacing: 0;
+                    text-align: center;
+                    padding-top: 213px;
+                    margin-left: 374px;
+                    margin-right: 374px;
+                }
+
+                button{
+                    height: 56px;
+                    width: 345px;
+                    margin-left:547px;
+                    margin-top: 36px;
+                    margin-bottom: 151px;
+
+                    a{
+                    font-size: 18px;  
+                    letter-spacing: 0;
+                    text-align: center;
+                    }
+                }
+            }
+
+
+        
+
+        }
+
+        
+        footer{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            top:-70px;
+            height: 95px;
+            padding-left: 100px;
+            padding-right: 100px;
+
+            p{
+                margin: 0;
+                font-size: 16px;
+                letter-spacing: 0;
+                line-height: 28px;
+                width: 269px;
+                font-weight: normal;
+
+            }
+
+            div{
+                padding: 0;
+                
+
+                img{
+                    height: 28px;
+                    width: 18px;
+                    margin-left: 36px;
+                    margin-bottom: 0;
+                }
+            }
+            
+        }
+    }
+
+
+
+}
