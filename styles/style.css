@@ -369,7 +369,10 @@ body footer {
         visibility: visible; }
       body main .main-section a {
         width: 226px;
-        height: 56px; }
+        height: 56px;
+        padding-top: 2px;
+        font-weight: 600;
+        font-size: 18px; }
     body main .episodios {
       padding: 0;
       margin-top: 0;
@@ -502,7 +505,8 @@ body footer {
         margin-bottom: 151px;
         font-size: 18px;
         letter-spacing: 0;
-        text-align: center; }
+        text-align: center;
+        padding-top: 4px; }
   body footer {
     display: -webkit-box;
     display: -ms-flexbox;
