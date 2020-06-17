@@ -342,6 +342,9 @@ body footer {
         letter-spacing: 0;
         line-height: 28px;
         margin-right: 48px; }
+        body header nav .menu ul li a:hover {
+          color: #00F3BB;
+          text-decoration: line-through; }
   body main {
     height: 3632px; }
     body main .main-section {

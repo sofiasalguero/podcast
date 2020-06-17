@@ -42,8 +42,15 @@
                                 letter-spacing: 0;
                                 line-height: 28px;
                                 margin-right: 48px;  
+
+                                &:hover {
+                                    color:#00F3BB;
+                                    text-decoration: line-through;
+                                } 
                                 
                             }
+
+                            
                         }
                     }
                 } 
