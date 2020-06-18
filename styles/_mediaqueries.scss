@@ -8,8 +8,7 @@
 
             img{
                 width: 36px;
-                height: 36px;
-                
+                height: 36px;   
             }    
             
         
@@ -61,7 +60,8 @@
         }
 
         main{
-            height:3632px; ;
+            height:3632px; 
+            
 
             .main-section {
                 padding-left: 200px;
@@ -74,7 +74,11 @@
                     margin-top: 120px;
                     margin-bottom: 0px;
                     height:84px;
-                    width:100%
+                    width:100%;
+
+                    .text-blue{
+                        color: #0000EC;
+                    }
                 }
 
                 p{

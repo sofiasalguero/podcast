@@ -99,7 +99,7 @@ body main {
       font-weight: normal;
       margin-top: 29px;
       margin-bottom: 16px; }
-      body main .main-section h1 span {
+      body main .main-section h1 .line-through {
         text-decoration: line-through; }
     body main .main-section p {
       width: 288px;
@@ -358,6 +358,8 @@ body footer {
         margin-bottom: 0px;
         height: 84px;
         width: 100%; }
+        body main .main-section h1 .text-blue {
+          color: #0000EC; }
       body main .main-section p {
         font-family: 'IBM Plex Mono';
         font-size: 16px;
