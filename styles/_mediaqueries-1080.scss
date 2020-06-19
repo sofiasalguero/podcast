@@ -1,10 +1,9 @@
-@media screen and (min-width:1440px){
+@media screen and (min-width:1080px){
     body{
 
         header{
             height: 80px;
-            padding-left: 100px;
-            padding-right: 52px;
+            padding: 0 100px;
 
             img{
                 width: 36px;
@@ -26,30 +25,33 @@
                     ul{
                         display: flex; 
                         top: 0;
-                        position: relative;
+                        position: unset;
                         background: none;
-                        margin-right: 52px;
-                        margin-top: 26px;
+                        
                         
 
                         li{
+                            margin: 0;
+                            margin-right: 48px;
+                        
                             
                             a{ 
                                 font-family: 'IBM Plex Mono';
                                 font-size: 16px;
                                 color: #060A24;
-                                letter-spacing: 0;
-                                line-height: 28px;
-                                margin-right: 48px;  
+                                letter-spacing: 0;                               
+
+                               
 
                                 &:hover {
                                     color:#00F3BB;
                                     text-decoration: line-through;
-                                } 
+                                }
                                 
-                            }
-
-                            
+                            }                            
+                        }                        
+                        .topicos{
+                            margin: 0;
                         }
                     }
                 } 
@@ -60,20 +62,20 @@
         }
 
         main{
-            height:3632px; 
+            height:3435px; 
             
 
             .main-section {
                 padding-left: 200px;
                 height: 240px;
+                margin-top: 120px;
                 
                 h1{
                     font-family: 'IBM Plex Sans';
                     font-size: 64px;
                     letter-spacing: 0;
-                    margin-top: 120px;
                     margin-bottom: 0px;
-                    height:84px;
+                    line-height:84px;
                     width:100%;
 
                     .text-blue{
@@ -106,37 +108,42 @@
             }
 
             .episodios{
-                padding: 0;
-                margin-top: 0;
+                padding-top: 186px;
+                margin-top: 5px;
                 height:1042.6px;
-                clip-path: polygon(0 15%, 100% 0, 100% 90%, 0 100%);
+                clip-path: polygon(0 12%, 100% 0, 100% 90%, 0 100%);
                 
 
                 h2{
-                    padding-top: 186px;
-                    padding-left:200px;
+                    margin-left:200px;
                     font-size: 48px;
                     letter-spacing: 0;
                     margin-bottom: 26px;
+                    line-height: 62px;
                 }
 
                 
 
                 .iframe-padre{
-                    display: flex;
-                    flex-wrap: wrap;
+                    margin: 0 50px;
+                    text-align: center;
 
-                        .iframe{
-                            width: 584px;
-                            margin-bottom: 0;
-                            margin-left: 100px;
-                            padding-left: 0;
-                            margin-bottom: 74px;
+                    .iframe{
+                            display: inline-block;
+                            padding: 0;
+                            margin-bottom: 72px;
+                            margin-right: 10px;
+                            
 
-                        iframe{
-                            width: 584px;
-                           
+                            iframe{
+                                width: 480px;
+                            
+                            }
+
                         }
+
+                    .unset-right{
+                        margin-right: 0;
                     }
 
                     
@@ -147,7 +154,7 @@
                 top: -160px;
                 height: 660px;
                 width: 457.6px;
-                margin-left: 200px;
+                margin-left: 80px;
 
                 img{
                     height: 100%;
@@ -159,7 +166,7 @@
                 top: -160px;
                 position: absolute;
                 top:1500px;
-                left:720px;
+                left:520px;
 
                 h2{
                     font-size: 48px;
@@ -178,6 +185,7 @@
 
             .stellar-guests {
                 top: -160px;
+                width: 100%;
 
                 h2{
                     font-size: 48px;
@@ -192,17 +200,16 @@
                 .imagenes-stellar{
                     display: flex;
                     flex-wrap: wrap;
-                    height: auto;
-                    width: auto;
                     
 
                     div{
-                        height: 364px;
-                        width: 480px;
+                        height:264px;
+                        width: 33.33%;
+                       
                     
                         img{
-                            height: 364px;
-                            width: 480px;
+                            height:inherit;
+                            width: 100%;
                         }
                 
                     }
@@ -219,23 +226,23 @@
                     font-size: 48px;
                     letter-spacing: 0;
                     width: 586px;
-                    margin-left: 200px;
+                    margin-left: 100px;
                     padding: 0;
                 }
 
             .nuestros-temas{
                     display: flex;
                     flex-wrap: wrap;
-                    margin-left:200px;
+                    margin-left:120px;
 
                     .icon{
-                       width: 260px;
+                       width: 206px;
 
                         img{
                             height:104px;
                             width: 104px;
-                            margin-left: 78px;
-                            margin-right: 78px;
+                            margin-left: 60px;
+                            margin-right: 60px;
                         }
                         h3{
                            text-align: center;
@@ -243,19 +250,19 @@
                         }
                     }
                     .icon4{
-                        width: 260px;
+                        width: 206px;
  
                          img{
                              height:104px;
                              width: 104px;
-                             margin-left: 78px;
-                             margin-right: 78px;
-                         }
+                             margin-left: 74px;
+                             margin-right: 74px;
+                            }
                          h3{
                             text-align: center;
                             line-height: 32px;
                             width: 220px;
-                            margin: 0 auto;
+                            margin-right: 20px;
 
                         }
                     }
@@ -273,12 +280,11 @@
                 clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
 
                 h2{
-                    font-size: 48px;
+                    font-size: 44px;
                     letter-spacing: 0;
                     text-align: center;
                     padding-top: 213px;
-                    margin-left: 374px;
-                    margin-right: 374px;
+                    margin-left: 50px;
                 }
 
                 
@@ -287,7 +293,7 @@
                 a{
                     height: 56px;
                     width: 345px;
-                    margin-left:547px;
+                    margin-left:400px;
                     margin-top: 36px;
                     margin-bottom: 151px;
                     font-size: 18px;  

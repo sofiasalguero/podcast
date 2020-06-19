@@ -197,11 +197,11 @@ body main {
     body main .stellar-guests .imagenes-stellar {
       height: auto; }
       body main .stellar-guests .imagenes-stellar div {
-        width: 320px;
+        width: 100%;
         height: 243px; }
       body main .stellar-guests .imagenes-stellar img {
-        width: 320px;
-        height: 243px;
+        height: inherit;
+        width: 100%;
         padding: 0;
         border: 0; }
   body main .our-subjects {
@@ -314,11 +314,10 @@ body footer {
       margin-bottom: 31px;
       color: black; }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1080px) {
   body header {
     height: 80px;
-    padding-left: 100px;
-    padding-right: 52px; }
+    padding: 0 100px; }
     body header img {
       width: 36px;
       height: 36px; }
@@ -331,32 +330,33 @@ body footer {
       display: -ms-flexbox;
       display: flex;
       top: 0;
-      position: relative;
-      background: none;
-      margin-right: 52px;
-      margin-top: 26px; }
-      body header nav .menu ul li a {
-        font-family: 'IBM Plex Mono';
-        font-size: 16px;
-        color: #060A24;
-        letter-spacing: 0;
-        line-height: 28px;
+      position: unset;
+      background: none; }
+      body header nav .menu ul li {
+        margin: 0;
         margin-right: 48px; }
-        body header nav .menu ul li a:hover {
-          color: #00F3BB;
-          text-decoration: line-through; }
+        body header nav .menu ul li a {
+          font-family: 'IBM Plex Mono';
+          font-size: 16px;
+          color: #060A24;
+          letter-spacing: 0; }
+          body header nav .menu ul li a:hover {
+            color: #00F3BB;
+            text-decoration: line-through; }
+      body header nav .menu ul .topicos {
+        margin: 0; }
   body main {
-    height: 3632px; }
+    height: 3435px; }
     body main .main-section {
       padding-left: 200px;
-      height: 240px; }
+      height: 240px;
+      margin-top: 120px; }
       body main .main-section h1 {
         font-family: 'IBM Plex Sans';
         font-size: 64px;
         letter-spacing: 0;
-        margin-top: 120px;
         margin-bottom: 0px;
-        height: 84px;
+        line-height: 84px;
         width: 100%; }
         body main .main-section h1 .text-blue {
           color: #0000EC; }
@@ -379,36 +379,34 @@ body footer {
         font-weight: 600;
         font-size: 18px; }
     body main .episodios {
-      padding: 0;
-      margin-top: 0;
+      padding-top: 186px;
+      margin-top: 5px;
       height: 1042.6px;
-      -webkit-clip-path: polygon(0 15%, 100% 0, 100% 90%, 0 100%);
-              clip-path: polygon(0 15%, 100% 0, 100% 90%, 0 100%); }
+      -webkit-clip-path: polygon(0 12%, 100% 0, 100% 90%, 0 100%);
+              clip-path: polygon(0 12%, 100% 0, 100% 90%, 0 100%); }
       body main .episodios h2 {
-        padding-top: 186px;
-        padding-left: 200px;
+        margin-left: 200px;
         font-size: 48px;
         letter-spacing: 0;
-        margin-bottom: 26px; }
+        margin-bottom: 26px;
+        line-height: 62px; }
       body main .episodios .iframe-padre {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap; }
+        margin: 0 50px;
+        text-align: center; }
         body main .episodios .iframe-padre .iframe {
-          width: 584px;
-          margin-bottom: 0;
-          margin-left: 100px;
-          padding-left: 0;
-          margin-bottom: 74px; }
+          display: inline-block;
+          padding: 0;
+          margin-bottom: 72px;
+          margin-right: 10px; }
           body main .episodios .iframe-padre .iframe iframe {
-            width: 584px; }
+            width: 480px; }
+        body main .episodios .iframe-padre .unset-right {
+          margin-right: 0; }
     body main .phone {
       top: -160px;
       height: 660px;
       width: 457.6px;
-      margin-left: 200px; }
+      margin-left: 80px; }
       body main .phone img {
         height: 100%;
         -o-object-fit: contain;
@@ -417,7 +415,7 @@ body footer {
       top: -160px;
       position: absolute;
       top: 1500px;
-      left: 720px; }
+      left: 520px; }
       body main .from h2 {
         font-size: 48px;
         letter-spacing: 0;
@@ -428,7 +426,8 @@ body footer {
         line-height: 24px;
         width: 464px; }
     body main .stellar-guests {
-      top: -160px; }
+      top: -160px;
+      width: 100%; }
       body main .stellar-guests h2 {
         font-size: 48px;
         letter-spacing: 0;
@@ -443,15 +442,13 @@ body footer {
         display: -ms-flexbox;
         display: flex;
         -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-        height: auto;
-        width: auto; }
+            flex-wrap: wrap; }
         body main .stellar-guests .imagenes-stellar div {
-          height: 364px;
-          width: 480px; }
+          height: 264px;
+          width: 33.33%; }
           body main .stellar-guests .imagenes-stellar div img {
-            height: 364px;
-            width: 480px; }
+            height: inherit;
+            width: 100%; }
     body main .our-subjects {
       margin-top: 64px;
       top: -160px; }
@@ -459,7 +456,7 @@ body footer {
         font-size: 48px;
         letter-spacing: 0;
         width: 586px;
-        margin-left: 200px;
+        margin-left: 100px;
         padding: 0; }
       body main .our-subjects .nuestros-temas {
         display: -webkit-box;
@@ -467,28 +464,28 @@ body footer {
         display: flex;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
-        margin-left: 200px; }
+        margin-left: 120px; }
         body main .our-subjects .nuestros-temas .icon {
-          width: 260px; }
+          width: 206px; }
           body main .our-subjects .nuestros-temas .icon img {
             height: 104px;
             width: 104px;
-            margin-left: 78px;
-            margin-right: 78px; }
+            margin-left: 60px;
+            margin-right: 60px; }
           body main .our-subjects .nuestros-temas .icon h3 {
             text-align: center; }
         body main .our-subjects .nuestros-temas .icon4 {
-          width: 260px; }
+          width: 206px; }
           body main .our-subjects .nuestros-temas .icon4 img {
             height: 104px;
             width: 104px;
-            margin-left: 78px;
-            margin-right: 78px; }
+            margin-left: 74px;
+            margin-right: 74px; }
           body main .our-subjects .nuestros-temas .icon4 h3 {
             text-align: center;
             line-height: 32px;
             width: 220px;
-            margin: 0 auto; }
+            margin-right: 20px; }
     body main .news {
       top: -160px;
       height: 518px;
@@ -496,16 +493,15 @@ body footer {
       -webkit-clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
               clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%); }
       body main .news h2 {
-        font-size: 48px;
+        font-size: 44px;
         letter-spacing: 0;
         text-align: center;
         padding-top: 213px;
-        margin-left: 374px;
-        margin-right: 374px; }
+        margin-left: 50px; }
       body main .news a {
         height: 56px;
         width: 345px;
-        margin-left: 547px;
+        margin-left: 400px;
         margin-top: 36px;
         margin-bottom: 151px;
         font-size: 18px;
@@ -541,5 +537,52 @@ body footer {
         width: 28px;
         height: 18px;
         margin-left: 36px; } }
+@media screen and (min-width: 1440px) {
+  body main {
+    height: 3632px; }
+    body main .episodios .iframe-padre {
+      margin: 0 100px; }
+      body main .episodios .iframe-padre .iframe {
+        margin-bottom: 72px;
+        margin-right: 62px; }
+        body main .episodios .iframe-padre .iframe iframe {
+          width: 584px; }
+      body main .episodios .iframe-padre .unset-right {
+        margin-right: 0; }
+    body main .phone {
+      margin-left: 200px; }
+    body main .from {
+      left: 720px; }
+    body main .stellar-guests {
+      top: -160px; }
+      body main .stellar-guests .imagenes-stellar div {
+        height: 364px; }
+    body main .our-subjects {
+      top: -160px; }
+      body main .our-subjects h2 {
+        margin-left: 200px; }
+      body main .our-subjects .nuestros-temas {
+        margin-left: 200px; }
+        body main .our-subjects .nuestros-temas .icon {
+          width: 260px; }
+          body main .our-subjects .nuestros-temas .icon img {
+            height: 104px;
+            width: 104px;
+            margin-left: 78px;
+            margin-right: 78px; }
+        body main .our-subjects .nuestros-temas .icon4 {
+          width: 260px; }
+          body main .our-subjects .nuestros-temas .icon4 img {
+            height: 104px;
+            width: 104px;
+            margin-left: 78px;
+            margin-right: 78px; }
+    body main .news h2 {
+      font-size: 48px;
+      padding-top: 213px;
+      margin-left: 374px;
+      margin-right: 374px; }
+    body main .news a {
+      margin-left: 547px; } }
 
 /*# sourceMappingURL=style.css.map */
