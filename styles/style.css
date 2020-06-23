@@ -75,7 +75,7 @@ body header {
           text-decoration: none;
           font-family: "IBM Plex Mono"; }
 body main {
-  height: 5256px; }
+  height: 5268px; }
   body main .main-section {
     padding-left: 16px; }
     body main .main-section h1 {
@@ -133,16 +133,17 @@ body main {
         height: inherit; }
   body main .phone {
     width: 100%;
-    height: 445px;
+    height: 519px;
     position: relative;
     top: -70px; }
     body main .phone figure {
       height: inherit; }
       body main .phone figure img {
-        width: 100%;
-        height: 500px; }
+        width: 100%; }
   body main .from {
     padding-left: 16px;
+    position: relative;
+    top: -70px;
     margin-top: 20px; }
     body main .from h2 {
       height: 84px;
@@ -165,6 +166,7 @@ body main {
       margin-top: 8px; }
   body main .stellar-guests {
     position: relative;
+    top: -70px;
     margin-top: 54px;
     height: auto; }
     body main .stellar-guests h2 {
@@ -190,6 +192,7 @@ body main {
         border: 0; }
   body main .our-subjects {
     position: relative;
+    top: -70px;
     margin-top: 48px; }
     body main .our-subjects h2 {
       height: 84px;
@@ -234,6 +237,7 @@ body main {
     margin-top: 42px;
     height: 341px;
     position: relative;
+    top: -70px;
     width: 100%;
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
     clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%); }

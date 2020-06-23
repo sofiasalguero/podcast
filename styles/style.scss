@@ -101,7 +101,7 @@ body {
     }
 
     main {
-        height: 5256px;
+        height: 5268px;
 
         .main-section {
             padding-left: 16px;
@@ -183,7 +183,7 @@ body {
 
         .phone{
             width: 100%;
-            height: 445px;
+            height: 519px;
             position: relative;
             top: -70px;
 
@@ -193,7 +193,7 @@ body {
 
             img{
                 width: 100%;
-                height: 500px;
+                
             }
          }
             
@@ -201,6 +201,8 @@ body {
 
         .from{
             padding-left: 16px;
+            position: relative;
+            top: -70px;
             margin-top: 20px;
 
             h2{ height: 84px;
@@ -228,6 +230,7 @@ body {
 
         .stellar-guests{
             position: relative;
+            top: -70px;
             margin-top: 54px;
             height: auto;
 
@@ -264,7 +267,9 @@ body {
 
         .our-subjects{
             position: relative;
+            top: -70px;
             margin-top: 48px;
+           
            
 
                 h2{
@@ -327,12 +332,13 @@ body {
         }
 
         .news {
-                margin-top:42px;
-                height: 341px;
-                position: relative;
-                width: 100%;
-                background-image:$background_gradient;
-                clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+            margin-top:42px;
+            height: 341px;
+            position: relative;
+            top: -70px;
+            width: 100%;
+            background-image:$background_gradient;
+            clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
             
 
                 h2{
