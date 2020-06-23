@@ -8,23 +8,16 @@
   margin: 0;
   padding: 0;
   border: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   scroll-behavior: smooth; }
 
 body header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   height: 44px;
   padding-left: 16px;
   padding-right: 12px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  align-items: center; }
   body header nav .menu {
     padding-top: 3px; }
     body header nav .menu input {
@@ -43,15 +36,12 @@ body header {
         padding-left: 16px; }
       body header nav .menu input:checked ~ span {
         opacity: 1;
-        -webkit-transform: rotate(45deg) translate(2px, 1px);
-                transform: rotate(45deg) translate(2px, 1px); }
+        transform: rotate(45deg) translate(2px, 1px); }
       body header nav .menu input:checked ~ span:nth-last-child(3) {
         opacity: 0;
-        -webkit-transform: rotate(0deg) scale(0.2, 0.2);
-                transform: rotate(0deg) scale(0.2, 0.2); }
+        transform: rotate(0deg) scale(0.2, 0.2); }
       body header nav .menu input:checked ~ span:nth-last-child(2) {
-        -webkit-transform: rotate(-45deg) translate(1px, 0px);
-                transform: rotate(-45deg) translate(1px, 0px); }
+        transform: rotate(-45deg) translate(1px, 0px); }
     body header nav .menu span {
       display: block;
       width: 25px;
@@ -60,15 +50,12 @@ body header {
       position: relative;
       background: #000;
       z-index: 1;
-      -webkit-transform-origin: 3px 0px;
-              transform-origin: 3px 0px;
+      transform-origin: 3px 0px;
       margin-right: 12px; }
       body header nav .menu span:first-child {
-        -webkit-transform-origin: 0% 0%;
-                transform-origin: 0% 0%; }
+        transform-origin: 0% 0%; }
       body header nav .menu span:nth-last-child(2) {
-        -webkit-transform-origin: 0% 100%;
-                transform-origin: 0% 100%; }
+        transform-origin: 0% 100%; }
     body header nav .menu ul {
       position: absolute;
       top: 44px;
@@ -127,8 +114,7 @@ body main {
     height: 1203.5px;
     padding-top: 64px;
     position: relative;
-    -webkit-clip-path: polygon(0 2.8%, 100% 0, 100% 97%, 0 100%);
-            clip-path: polygon(0 2.8%, 100% 0, 100% 97%, 0 100%);
+    clip-path: polygon(0 2.8%, 100% 0, 100% 97%, 0 100%);
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%); }
     body main .episodios h2 {
       margin-left: 16px;
@@ -147,17 +133,16 @@ body main {
         height: inherit; }
   body main .phone {
     width: 100%;
-    height: 519px;
+    height: 445px;
     position: relative;
     top: -70px; }
     body main .phone figure {
       height: inherit; }
       body main .phone figure img {
-        width: 100%; }
+        width: 100%;
+        height: 500px; }
   body main .from {
     padding-left: 16px;
-    position: relative;
-    top: -70px;
     margin-top: 20px; }
     body main .from h2 {
       height: 84px;
@@ -180,7 +165,6 @@ body main {
       margin-top: 8px; }
   body main .stellar-guests {
     position: relative;
-    top: -70px;
     margin-top: 54px;
     height: auto; }
     body main .stellar-guests h2 {
@@ -206,7 +190,6 @@ body main {
         border: 0; }
   body main .our-subjects {
     position: relative;
-    top: -70px;
     margin-top: 48px; }
     body main .our-subjects h2 {
       height: 84px;
@@ -251,11 +234,9 @@ body main {
     margin-top: 42px;
     height: 341px;
     position: relative;
-    top: -70px;
     width: 100%;
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-    -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
-            clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%); }
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%); }
     body main .news h2 {
       position: relative;
       font-family: "IBM Plex Sans";
@@ -299,18 +280,13 @@ body footer {
     height: 22px;
     width: 227px; }
   body footer div {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    justify-content: space-evenly;
     padding-top: 16px; }
     body footer div i {
       height: 28px;
       width: 16px;
-      -o-object-fit: contain;
-         object-fit: contain;
+      object-fit: contain;
       margin-bottom: 31px;
       color: black; }
 
@@ -326,8 +302,6 @@ body footer {
     body header nav .menu input {
       display: none; }
     body header nav .menu ul {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
       top: 0;
       position: unset;
@@ -382,8 +356,7 @@ body footer {
       padding-top: 186px;
       margin-top: 5px;
       height: 1042.6px;
-      -webkit-clip-path: polygon(0 12%, 100% 0, 100% 90%, 0 100%);
-              clip-path: polygon(0 12%, 100% 0, 100% 90%, 0 100%); }
+      clip-path: polygon(0 12%, 100% 0, 100% 90%, 0 100%); }
       body main .episodios h2 {
         margin-left: 200px;
         font-size: 48px;
@@ -409,8 +382,7 @@ body footer {
       margin-left: 80px; }
       body main .phone img {
         height: 100%;
-        -o-object-fit: contain;
-           object-fit: contain; }
+        object-fit: contain; }
     body main .from {
       top: -160px;
       position: absolute;
@@ -438,11 +410,8 @@ body footer {
         margin-top: 64px;
         padding: 0; }
       body main .stellar-guests .imagenes-stellar {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap; }
+        flex-wrap: wrap; }
         body main .stellar-guests .imagenes-stellar div {
           height: 264px;
           width: 33.33%; }
@@ -459,11 +428,8 @@ body footer {
         margin-left: 100px;
         padding: 0; }
       body main .our-subjects .nuestros-temas {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+        flex-wrap: wrap;
         margin-left: 120px; }
         body main .our-subjects .nuestros-temas .icon {
           width: 206px; }
@@ -490,8 +456,7 @@ body footer {
       top: -160px;
       height: 518px;
       margin-top: 34px;
-      -webkit-clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
-              clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%); }
+      clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%); }
       body main .news h2 {
         font-size: 44px;
         letter-spacing: 0;
@@ -509,15 +474,9 @@ body footer {
         text-align: center;
         padding-top: 4px; }
   body footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
     top: -70px;
     height: 95px;
     padding-left: 100px;
