@@ -470,8 +470,7 @@ body footer {
       body main .news a {
         height: 56px;
         width: 345px;
-        margin-left: 400px;
-        margin-top: 36px;
+        margin: 36px auto 0 auto;
         margin-bottom: 151px;
         font-size: 18px;
         letter-spacing: 0;
@@ -544,8 +543,6 @@ body footer {
       font-size: 48px;
       padding-top: 213px;
       margin-left: 374px;
-      margin-right: 374px; }
-    body main .news a {
-      margin-left: 547px; } }
+      margin-right: 374px; } }
 
 /*# sourceMappingURL=style.css.map */
